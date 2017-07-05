@@ -76,6 +76,7 @@ esac
 case "$2" in
     16.0) V=16.0;;
     16.1) V=16.1;;
+    17.0) V=17.0;;
     *)
         echo "Unknown version: ${2}" >&2
         exit 1
